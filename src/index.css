@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/Gilroy-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url(../public/fonts/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(/fonts/Gilroy-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/Gilroy-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/Gilroy-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/Gilroy-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/Gilroy-ExtraBold.ttf) format("truetype");
+}
+
+:root {
+  @apply font-Poppins;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.gradientText {
+  @apply bg-linear-gradient-text bg-clip-text text-transparent;
+}
